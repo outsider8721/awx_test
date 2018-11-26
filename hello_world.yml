@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 192.168.100.58
   tasks:
   - debug:
       msg: Testing a binary module written in Rust
