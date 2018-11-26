@@ -1,7 +1,4 @@
----
-- hosts: all
-  remote_user: root
-  tasks:
-  - name: ping test
-  ping
-  
+gather_facts: false
+hosts: all
+tasks:
+  ping: null
