@@ -7,3 +7,5 @@
     shell: echo "Hi! Tower is working."
   - name: Hello World Variable!
     shell: echo "{{ echo }}"
+  - name: mkdir!
+    shell: mkdir "{{ echo }}"
