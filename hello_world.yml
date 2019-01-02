@@ -8,6 +8,6 @@
   - name: Hello World Variable!
     shell: echo "{{ echo }}"
   - name: echo username!
-    shell: echo "{{ username }}"
+    shell: echo "{{ ansible_host }}"
   - name: echo password!
     shell: echo "{{ password }}"
