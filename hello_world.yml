@@ -10,4 +10,4 @@
   - name: echo username!
     shell: echo "{{ ansible_host }}"
   - name: echo password!
-    shell: echo "{{ password }}"
+    shell: echo "{{ ansible_ssh_pass }}"
