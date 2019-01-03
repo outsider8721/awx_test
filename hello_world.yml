@@ -5,4 +5,9 @@
 
   - name: Hello World!
     shell: echo "Hi! Tower is working."
-    
+  - name: Hello World Variable!
+    shell: echo "{{ echo }}"
+  - name: echo username!
+    shell: echo "{{ ansible_host }}"
+  - name: echo password!
+    shell: echo "{{ ansible_ssh_pass }}"
